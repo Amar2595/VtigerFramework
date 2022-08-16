@@ -1,7 +1,6 @@
 package com.cast.vtiger.genericUtility;
 
 import java.io.FileInputStream;
-import java.util.Properties;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;

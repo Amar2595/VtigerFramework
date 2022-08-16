@@ -52,6 +52,7 @@ public void BC() throws Throwable {
 @BeforeMethod(groups = {"smokeTest"})
 public void BM() throws Throwable {
 	System.out.println("Login to Vtiger Application");
+	System.out.println("Execute TestScripts");
 	String Url = pf.getpropertykeyvalue("url");
 	String username = pf.getpropertykeyvalue("username");
 	String password = pf.getpropertykeyvalue("password");
